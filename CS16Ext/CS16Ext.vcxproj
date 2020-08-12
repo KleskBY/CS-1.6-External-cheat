@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4165A294-21F2-44CA-9B38-E3F935ABADF5}</ProjectGuid>
-    <RootNamespace>example_win32_directx9</RootNamespace>
+    <RootNamespace>CS16Ext</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>CS16</ProjectName>
   </PropertyGroup>
