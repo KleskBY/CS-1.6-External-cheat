@@ -5,28 +5,28 @@ Exe version 1.1.2.7/Stdio (cstrike)<br>
 Exe build: 15:17:55 Jul 24 2019 (8308)<br>
 <br>
 <b>Features:</b><br>
-- Aimbot
-- Box esp
-- Distance esp
-- Name esp
-- BunnyHop
-- DDRun
-- AutoPistol
-- FPS Unlock
+- Aimbot<br>
+- Box esp<br>
+- Distance esp<br>
+- Name esp<br>
+- BunnyHop<br>
+- DDRun<br>
+- AutoPistol<br>
+- FPS Unlock<br>
 <br>
 <b>Bypass:</b><br>
-- Wargods (need to close the cheat before scanning)
-- Sxe 
-- all server anti-cheats
-- prob some other trash
+- Wargods (need to close the cheat before scanning)<br>
+- Sxe <br>
+- all server anti-cheats<br>
+- prob some other trash<br>
 <br>
 <b>Information about GameGuard:</b><br>
-- All WinApi are logged.
-- All connections are logged.
-- Threads seems detected.
-- mouse_event is detected.
-- All drivers are logged.
-- You will need a kernel driver to read game memory.
+- All WinApi are logged.<br>
+- All connections are logged.<br>
+- Threads seems detected.<br>
+- mouse_event is detected.<br>
+- All drivers are logged.<br>
+- You will need a kernel driver to read game memory.<br>
 
 <br>
 <b>Story:</b><br>
