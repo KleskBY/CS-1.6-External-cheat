@@ -27,9 +27,12 @@ Exe build: 15:17:55 Jul 24 2019 (8308)<br>
 - mouse_event is detected.<br>
 - All drivers are logged.<br>
 - You will need a kernel driver to read game memory.<br>
+- They have full access to your PC<br>
+- They are very evil and mean. You will not defeat them!<br>
+
 
 <br>
-<b>Story:</b><br>
+<1>The story behind</1><br>
 I've coded it long time ago. First release was for MYAC (old fastcup anticheat). They had a giant hole that alowed you to view/edit game memory through steam.
 Then they updated the anticheat and I was forced to use kernel driver. I sold few copies and then one guy went semi-rage (https://www.youtube.com/watch?v=Ze6tQYku9BU).
 You can see that he is using my creepy shaky aimbot (he edited smooth in a config so he used lower smooth than possible to configure by cheat). After like 35 days, admins viewed his logs and all users including me were banned. 
