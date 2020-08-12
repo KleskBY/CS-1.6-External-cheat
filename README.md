@@ -50,7 +50,7 @@ They move the victim to a special laboratory where non-vital brain lobes are rem
 Final part - they install a special chip into the victim's brain that will receive and execute special programs when needed.  
 Fastcup strips its victim of mind and reason, leaving only an empty, mindless shell. The brainless bodies then turn into zombies, following only the most basic instincts.
 This madness should be stopped. Someone needs to destroy this empire of evil.<br>
-<h1>Иситория</h1><br>
+<h1>История</h1><br>
 Я его давно закодировал. Первый выпуск был для MYAC (старый античит fastcup).
 У них была гигантская дыра, которая позволяла просматривать / редактировать игровую память через Steam. 
 Потом обновили античит, и я был вынужден использовать драйвер ядра. Я продал несколько копий, а потом один парень пошел катать по семи рейджу (https://www.youtube.com/watch?v=Ze6tQYku9BU). 
