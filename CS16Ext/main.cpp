@@ -412,8 +412,6 @@ int main(int, char**)
 				if (ImGui::Button(("KEYS"), ImVec2(100, 25))) Page = 4;
 				if (ImGui::Button(("CFG"), ImVec2(100, 25))) Page = 3;
 				ImGui::TextWrapped("This cheat was made by KleskBY in 2019");
-				ImGui::Dummy(ImVec2(0, 10));
-				ImGui::TextWrapped(u8"INTERIUM LLC © 2020");
 
 				ImGui::PopStyleVar(3);
 				ImGui::NextColumn();
