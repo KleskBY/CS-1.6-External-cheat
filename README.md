@@ -30,6 +30,24 @@ Exe build: 15:17:55 Jul 24 2019 (8308)<br>
 - They have full access to your PC<br>
 - They are very evil and mean. You will not defeat them!<br>
 
+<h1>Offsets and patterns</h1>
+<b>View pattern</b><br>
+0 0 0 0 0 0 0 128 0 0 128 63 213 5 143 189 255 95 127 191 0 0 0 128<br>
+0 0 0 0 0 0 0 0 0 0 128 63 212 197 49 62 217 28 124 191 0 0 0 128<br>
+0 0 0 0 0 0 0 128 0 0 128 63 213 5 143 189 255 95 127 191 0 0 0 128<br>
+<br>
+client.dll+12D9F0 hw.dll+1230274 hw.dll+EC7AB0 hw.dll+A2E4C0 hw.dll+7C7840<br>
+<br>
+<b>fovscale 1  (1.000000119)</b><br>
+1 0 128 63 0 0 0 0 0 0 0 0 0 0<br>
+171 214 47 64 0 0 0 0 0 0 0 0 0 0  //scoped (2.747477293)<br>
+ 
+<b>fovscale 2 (1.333333492)</b><br>
+172 170 170 63 0 0 0 0 0 0 <br>
+143 115 106 64 0 0 0 0 0 0 //scoped (3.663303137)<br>
+
+<b>recoil</b><br>
+0 0 0 0 0 0 0 0 0 0 0 0 32 0 0 0 1 0 0 0 0 0 0 0<br>
 
 <br>
 <h1>The story behind</h1><br>
