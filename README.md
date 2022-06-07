@@ -31,6 +31,31 @@ Exe build: 15:17:55 Jul 24 2019 (8308)<br>
 - They are very evil and mean. You will not defeat them!<br>
 
 <h1>Offsets and patterns</h1>
+<b>Updated offsets and patterns for Exe build: 19:53:27 Aug  3 2020 (8684)</b>
+
+{
+	offsets::MoveType = Engine + 0x100A0B8;		//520 On gounrd, 8 in air, 24 in water, 536 in watter onground. 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 08 02 00 00 00 00 00 00
+	offsets::OnGround = Engine + 0x122E2D4;		//1 On Ground, 0 in air 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 38 44
+	offsets::OnLadder = Client + 0x136D8C;		//1 on ladder, 0 on ground //00 00 00 00 01 00 00 00 00 A0 84 04 BD 02 00 00 00 00 00 00 01 00 00 00 + 0x10
+	offsets::IsChatting = Engine + 0x64429C;	//1 when chat is enabled //01 00 00 00 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+	offsets::InMenu = Engine + 0x6C3AB0;		//01 00 00 00 00 00 00 00 00 00 00 00 80 02 00 00 E0 01 00 00 00 00 00 00
+	offsets::InCross = Client + 0x125314;		//00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 B0 97 
+	offsets::ViewMatrix = Client + 0x12EAF0;	//00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 3F 00 00 80 3F + 0x40
+	offsets::Recoil = Engine + 0x122E324;		//00 00 00 00 00 00 00 00 00 00 00 00 20 00 00 00 01 00 00 00 00 00 00 00
+	offsets::EntityList = Engine + 0x12043C8;	//22 00 00 00 5C 62 6F 74 74 6F 6D 63 6F 6C 6F 72 5C 36 5C 63 6C 5F 64 6C
+}
+<b>PlayerInfo</b>
+struct PlayerInfo
+{
+	__int32 number; //0x0 0
+	char cmd[256]; //0x4 4
+	char name[44]; //0x104 260
+	char model[80];//0x130 304
+	float anim_frame; //0x180 384
+	float smth;			//0x184 388
+	Vector3 position;	//0x188 392
+	char pad_0x0180[188]; 
+};
 <b>View pattern</b><br>
 0 0 0 0 0 0 0 128 0 0 128 63 213 5 143 189 255 95 127 191 0 0 0 128<br>
 0 0 0 0 0 0 0 0 0 0 128 63 212 197 49 62 217 28 124 191 0 0 0 128<br>
