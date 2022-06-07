@@ -31,7 +31,7 @@ Exe build: 15:17:55 Jul 24 2019 (8308)<br>
 - They are very evil and mean. You will not defeat them!<br>
 
 <h1>Offsets and patterns</h1>
-<b>Updated offsets and patterns for Exe build: 19:53:27 Aug  3 2020 (8684)</b>
+<br><b>Updated offsets and patterns for Exe build: 19:53:27 Aug  3 2020 (8684)</b><br>
 
 {
 	offsets::MoveType = Engine + 0x100A0B8;		//520 On gounrd, 8 in air, 24 in water, 536 in watter onground. 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 08 02 00 00 00 00 00 00
@@ -44,7 +44,7 @@ Exe build: 15:17:55 Jul 24 2019 (8308)<br>
 	offsets::Recoil = Engine + 0x122E324;		//00 00 00 00 00 00 00 00 00 00 00 00 20 00 00 00 01 00 00 00 00 00 00 00
 	offsets::EntityList = Engine + 0x12043C8;	//22 00 00 00 5C 62 6F 74 74 6F 6D 63 6F 6C 6F 72 5C 36 5C 63 6C 5F 64 6C
 }
-<b>PlayerInfo</b>
+<br><b>PlayerInfo</b><br>
 struct PlayerInfo
 {
 	__int32 number; //0x0 0
